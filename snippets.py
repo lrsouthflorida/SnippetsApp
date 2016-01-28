@@ -22,6 +22,15 @@ def get(name):
     logging.error("FIXME: Unimplemented - get({!r})".format(name))
     return ""
     
+def main():
+    """Main function"""
+    logging.info("Constructing parser")
+    parser = argparse.Argumentparser(description = "Store and retrieve snippets of text")
+
+if __name__ == "__main__":
+    main()
+    
+    
     
     
     
